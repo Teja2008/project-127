@@ -1,0 +1,18 @@
+.heading{
+    width: 100%;
+    font-size: larger;
+    margin-top: 0px;
+}
+
+body{
+    background-image: url("song\ background.webp");
+    background-size: cover;
+}
+canvas{
+    border: 5px dotted rgb(25, 0, 255);
+    border-radius: 20px; 
+}
+.song_1{
+width:130px;
+border-radius: 20px;
+}
