@@ -20,3 +20,7 @@ function draw(){
     song1.play();
     
 }
+function gotposes(results){
+    if(results.length > 0){
+        console.log(results)}
+}
