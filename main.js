@@ -8,6 +8,9 @@ function setup(){
     poseNet = ml5.poseNet(video,modelLoaded)
     poseNet.on('pose', gotPoses)
 }
+function modelLoaded(){
+    console.log("modelLoaded")
+}
 function preload(){
     song1= loadSound("song1.mp3")
     song2= loadSound("song2.mp3")
